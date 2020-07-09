@@ -81,9 +81,10 @@ function sendData(){
 
 // delete a data
 function deleteData(id, parentElement){
+    parentElement.removeChild(document.getElementById(`taken${id}`));
     axios.delete(`${url}/${id}`)
             .then(res => {
-                parentElement.removeChild(document.getElementById(`taken${id}`));
+                //parentElement.removeChild(document.getElementById(`taken${id}`));
             })
             .catch(err => console.log(err))    
 }
