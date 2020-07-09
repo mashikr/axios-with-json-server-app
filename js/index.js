@@ -1,4 +1,4 @@
-let url = "http://localhost:3000/students";
+let url = "https://my-json-server.typicode.com/mashikr/json-server";
 
 // Get data onload window
 window.onload = function(){
