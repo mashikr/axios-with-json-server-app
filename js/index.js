@@ -1,4 +1,4 @@
-let url = "https://my-json-server.typicode.com/mashikr/json-server";
+let url = "https://my-json-server.typicode.com/mashikr/json-server/students";
 
 // Get data onload window
 window.onload = function(){
