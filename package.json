@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "js/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "json-server": "^0.16.1"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "json-server db.json"
   },
   "repository": {
     "type": "git",

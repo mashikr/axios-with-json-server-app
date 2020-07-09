@@ -43,10 +43,10 @@
         <div class="card">
           <div class="card-header bg-primary text-light">Md Ashikur Rahman</div>
           <div class="card-body">
-            <b>Dept:</b> CSTE <br>
-            <b>Roll:</b> ASH1701010M <br>
-            <b>Phone:</b> 0123456 <br>
-            <b>Email:</b> mdashik@gmail.com
+            <b>Dept:</b> <span id ="dept">CSTE</span> <br>
+            <b>Roll:</b> <span id="roll">ASH1701010M</span> <br>
+            <b>Phone:</b> <span id="phone">0123456</span> <br>
+            <b>Email:</b> <span id="email">mdashik@gmail.com</span>
           </div>
           <div class="card-footer">
             <button class="btn btn-warning">Edit</button>
@@ -58,6 +58,47 @@
 
     </div>
 
+  </div>
+
+  <div class="modal fade" id="editData" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Edit Student Data</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="editName" class="col-form-label">Name:</label>
+              <input type="text" class="form-control form-control-sm" id="editName">
+            </div>
+            <div class="form-group">
+              <label for="editDept" class="col-form-label">Dept:</label>
+              <input type="text" class="form-control form-control-sm" id="editDept">
+            </div>
+            <div class="form-group">
+              <label for="editRoll" class="col-form-label">Roll:</label>
+              <input type="text" class="form-control form-control-sm" id="editRoll">
+            </div>
+            <div class="form-group">
+              <label for="editPhone" class="col-form-label">Phone:</label>
+              <input type="text" class="form-control form-control-sm" id="editPhone"></input>
+            </div>
+            <div class="form-group">
+              <label for="editEmail" class="col-form-label">Email:</label>
+              <input type="email" class="form-control form-control-sm" id="editEmail"></input>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id="editFormBtn">Save</button>
+        </div>
+      </div>
+    </div>
   </div>
 
     <script src="js/axios.min.js"></script>

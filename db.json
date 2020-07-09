@@ -1,36 +1,36 @@
 {
   "students": [
     {
-      "id": 1,
-      "name": "Md Ashikur Rahman",
+      "name": "Ashik",
+      "dept": "CSTE",
       "roll": "ASH1701001M",
-      "dept": "CSTE",
-      "email": "mdashik@gmail.com",
-      "phone": "0123456789"
+      "phone": "012323465789",
+      "email": "ashik@gmail.com",
+      "id": 1
     },
     {
-      "id": 2,
       "name": "Tuhin",
+      "dept": "CSTE",
       "roll": "ASH1701002M",
-      "dept": "CSTE",
+      "phone": "012323465789",
       "email": "tuhin@gmail.com",
-      "phone": "0123456789"
+      "id": 2
     },
     {
-      "id": 3,
       "name": "Towhid",
-      "roll": "ASH1701003M",
       "dept": "CSTE",
+      "roll": "ASH1701003M",
+      "phone": "0123456789",
       "email": "towhid@gmail.com",
-      "phone": "0123456789"
+      "id": 3
     },
     {
-      "id": 4,
       "name": "Fyjun",
-      "roll": "BKH1701006F",
       "dept": "CSTE",
+      "roll": "BKH1701006F",
+      "phone": "0123456789",
       "email": "fyjun@gmail.com",
-      "phone": "0123456789"
+      "id": 4
     },
     {
       "name": "Mahabuba",
@@ -39,6 +39,14 @@
       "phone": "0123456789",
       "email": "maha@yahoo.com",
       "id": 5
+    },
+    {
+      "name": "Sukarna",
+      "dept": "CSTE",
+      "roll": "ASH1701010M",
+      "phone": "012323465789",
+      "email": "sukarna@gmail.com",
+      "id": 6
     }
   ]
 }
