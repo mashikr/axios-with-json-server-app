@@ -8,7 +8,57 @@
   <title>axios-json-app</title>
 </head>
 <body>
-	
+	<div class="container mb-5">
+    <div class="display-4 my-4 text-center">
+      Student Data
+    </div>
+
+    <div class="row mb-3">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Enter name" id="nameField" required>
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Enter dept" id="deptField" required>
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Enter roll" id="rollField" required>
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Enter phone" id="phoneField">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Enter email" id="emailField">
+      </div>
+      <div class="col">
+        <button class="btn btn-primary float-right" id="btnSave">Save</button>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-3"> 
+        <div class="card">
+          <div class="card-header bg-primary text-light">Md Ashikur Rahman</div>
+          <div class="card-body">
+            <b>Dept:</b> CSTE <br>
+            <b>Roll:</b> ASH1701010M <br>
+            <b>Phone:</b> 0123456 <br>
+            <b>Email:</b> mdashik@gmail.com
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-warning">Edit</button>
+            <button class="btn btn-danger float-right">Delete</button>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
+  </div>
 	
     <script src="js/index.js"></script>
     <script src="js/jquery-slim-min.js"></script>
